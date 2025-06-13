@@ -1,4 +1,5 @@
 import 'package:calcvio/core/utils/Appcolors.dart';
+import 'package:calcvio/core/widgets/toggletheme.dart';
 import 'package:calcvio/features/presentation/7th_pay_calc/cubit/7th_pay_cubit.dart';
 import 'package:calcvio/features/presentation/7th_pay_calc/screen/7th_pay_screen.dart';
 import 'package:calcvio/features/presentation/car_loan_calc/cubit/car_loan_cubit.dart';
@@ -68,19 +69,20 @@ class _FinancialCalculatorTabsState extends State<FinancialCalculatorTabs> {
             //     themeProvider.toggleTheme(val);
             //   },
             // ),
-            IconButton(
-              icon: Icon(
-                themeProvider.isDarkMode ? Icons.dark_mode : Icons.light_mode,
-                color: Theme.of(context).iconTheme.color,
-              ),
-              tooltip:
-                  themeProvider.isDarkMode
-                      ? 'Switch to Light Mode'
-                      : 'Switch to Dark Mode',
-              onPressed: () {
-                themeProvider.toggleTheme(!themeProvider.isDarkMode);
-              },
-            ),
+            // IconButton(
+            //   icon: Icon(
+            //     themeProvider.isDarkMode ? Icons.dark_mode : Icons.light_mode,
+            //     color: Theme.of(context).iconTheme.color,
+            //   ),
+            //   tooltip:
+            //       themeProvider.isDarkMode
+            //           ? 'Switch to Light Mode'
+            //           : 'Switch to Dark Mode',
+            //   onPressed: () {
+            //     themeProvider.toggleTheme(!themeProvider.isDarkMode);
+            //   },
+            // ),
+            ThemeToggleIcon(),
           ],
         ),
 

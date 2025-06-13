@@ -46,13 +46,14 @@ dev_dependencies:
     sdk: flutter
   flutter_launcher_icons: ^0.14.4
   flutter_native_splash: ^2.4.6
+  flutter_lints: ^5.0.0
 flutter_launcher_icons:
   android: true
   ios: true
   image_path: "assets/icons/app_icon.png"
 flutter_native_splash:
   color: "#ffffff"
-  image: "assets/icons/app_icon.png" # Add your logo here
+  image: "assets/icons/app_load_icon.png" # Add your logo here
   # branding: assets/branding.png # Optional small branding at bottom
   android: true
   ios: true
@@ -64,7 +65,6 @@ flutter_native_splash:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
