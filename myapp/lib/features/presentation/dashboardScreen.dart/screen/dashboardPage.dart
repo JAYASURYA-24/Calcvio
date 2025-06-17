@@ -185,7 +185,7 @@ class _FinancialCalculatorTabsState extends State<FinancialCalculatorTabs> {
       },
       child: Container(
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.circular(14),
           color: Colors.white,
         ),
         child: Image.asset(image, fit: BoxFit.fill),
